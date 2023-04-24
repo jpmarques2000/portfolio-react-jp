@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import NavBarItem from "./NavBarItem";
-import NavBarItemMd from "./NavBarItemMd"; 
+import NavBarItemMd from "./NavBarItemMd";
 
 const NavBar = () => {
   const [navStatus, setNavStatus] = useState(false);
@@ -9,10 +9,13 @@ const NavBar = () => {
     { id: 1, link: "home" },
     { id: 2, link: "about" },
     { id: 3, link: "portfolio" },
-    { id: 4, link: "experiences" },
+    { id: 4, link: "experience" },
     { id: 5, link: "contact" },
   ];
-  
+
+  const closeMenu = () => {
+    setNavStatus(!navStatus);
+  };
 
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
@@ -27,7 +30,7 @@ const NavBar = () => {
         {navStatus ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
       {navStatus && (
-        <NavBarItemMd links={navBarItems} />
+        <NavBarItemMd links={navBarItems} onCloseMenu={closeMenu} />
       )}
     </div>
   );
