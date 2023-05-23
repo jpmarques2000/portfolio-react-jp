@@ -9,7 +9,7 @@ function NavBarItem(props) {
           key={id}
           className="text-2xl px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200"
         >
-          <Link to={link} smooth duration={400}>{link}</Link>
+          <Link to={link} duration={300}>{link}</Link>
           </li>
       ))}
     </ul>

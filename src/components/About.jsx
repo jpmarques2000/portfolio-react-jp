@@ -13,7 +13,7 @@ const About = () => {
           </p>
         </div>
 
-        <p className="text-xl mt-6">
+        {/* <p className="text-xl mt-6">
           Desenvolvedor de Software com experiência de estudo e trabalho em
           algumas linguagens como, C#, JavaScript, Visual Basic, Oracle, em
           bibliotecas JavaScript como React e React Native. Possuo boa
@@ -26,7 +26,7 @@ const About = () => {
           proativo, otimista e esforçado, também estou sempre disposto a
           aprender uma nova tecnologia se solicitado.
         </p>
-        <br />
+        <br /> */}
         <p className="text-xl mt-3">
           Software developer with study and work experience Some languages such
           as C#, JavaScript, Visual Basic, Oracle, etc. JavaScript libraries

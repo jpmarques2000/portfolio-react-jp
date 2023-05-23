@@ -9,7 +9,7 @@ import tailwind from "../../assets/tailwind.png";
 import ExperienceItem from "./ExperienceItem";
 import cSharp from "../../assets/c#.png";
 import oracle from "../../assets/oracle.png";
-import sql from "../../assets/sql.png";
+import sql from "../../assets/sql.jpg";
 
 function Experiences() {
   const technologiesItem = [
@@ -59,13 +59,13 @@ function Experiences() {
       id: 8,
       src: oracle,
       title: "Oracle",
-      style: "shadow-purple-400",
+      style: "shadow-gray-400",
     },
     {
       id: 9,
       src: sql,
       title: "SQL",
-      style: "shadow-purple-400",
+      style: "shadow-blue-400",
     },
   ];
 

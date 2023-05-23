@@ -6,26 +6,33 @@ const Projects = () => {
     {
       id: 1,
       title: "Calculator-Javascript",
+      description: "A simple calculator project, made with javascript. ",
       href: "https://github.com/jpmarques2000/Calculator-Js",
     },
     {
       id: 2,
       title: "Shop Website-Javascript",
+      description: "A web shop project, made with javascript. ",
       href: "https://github.com/jpmarques2000/Shop-Javascript",
     },
     {
       id: 3,
       title: "Mobile Shop App(Xamarin.Forms)",
+      description:
+        "A mobile app shop made with Xamarin.forms, used for a graduation final project. ",
       href: "https://github.com/jpmarques2000/VENDAS_SUPERMERCADO",
     },
     {
       id: 4,
       title: "React Native App(Incomplete)",
+      description: "A shop app made with React Native, not completed yet. ",
       href: "https://github.com/jpmarques2000/VendasReact",
     },
     {
       id: 5,
       title: "Shop Website-React",
+      description:
+        "A web shop page made with React, React Redux, Express and mysql. ",
       href: "https://github.com/jpmarques2000/React-Shop",
     },
   ];
