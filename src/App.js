@@ -4,7 +4,6 @@ import Experiences from "./components/Experience/Experiences";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar/NavBar";
 import Projects from "./components/Projects/Projects";
-// import SocialMediaLinks from "./components/SocialMediaLinks";
 
 function App() {
   return (
@@ -15,7 +14,6 @@ function App() {
       <Projects />
       <Experiences />
       <Contact />
-      {/* <SocialMediaLinks /> */}
     </div>
   );
 }

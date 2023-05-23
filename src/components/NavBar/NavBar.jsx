@@ -8,7 +8,7 @@ const NavBar = () => {
   const navBarItems = [
     { id: 1, link: "home" },
     { id: 2, link: "about" },
-    { id: 3, link: "portfolio" },
+    { id: 3, link: "projects" },
     { id: 4, link: "experience" },
     { id: 5, link: "contact" },
   ];
@@ -19,9 +19,6 @@ const NavBar = () => {
 
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
-      <div>
-        <h1 className="text-5xl font-signature ml-2">Joao Paulo</h1>
-      </div>
       <NavBarItem links={navBarItems} />
       <div
         onClick={() => setNavStatus(!navStatus)}

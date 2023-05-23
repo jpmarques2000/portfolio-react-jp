@@ -23,11 +23,16 @@ const Projects = () => {
       title: "React Native App(Incomplete)",
       href: "https://github.com/jpmarques2000/VendasReact",
     },
+    {
+      id: 5,
+      title: "Shop Website-React",
+      href: "https://github.com/jpmarques2000/React-Shop",
+    },
   ];
 
   return (
     <div
-      name="portfolio"
+      name="projects"
       className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">

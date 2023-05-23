@@ -7,9 +7,11 @@ import reactImage from "../../assets/react.png";
 import github from "../../assets/github.png";
 import tailwind from "../../assets/tailwind.png";
 import ExperienceItem from "./ExperienceItem";
+import cSharp from "../../assets/c#.png";
+import oracle from "../../assets/oracle.png";
+import sql from "../../assets/sql.png";
 
 function Experiences() {
-
   const technologiesItem = [
     {
       id: 1,
@@ -42,10 +44,28 @@ function Experiences() {
       style: "shadow-sky-400",
     },
     {
-      id: 8,
+      id: 6,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
+    },
+    {
+      id: 7,
+      src: cSharp,
+      title: "C#",
+      style: "shadow-purple-400",
+    },
+    {
+      id: 8,
+      src: oracle,
+      title: "Oracle",
+      style: "shadow-purple-400",
+    },
+    {
+      id: 9,
+      src: sql,
+      title: "SQL",
+      style: "shadow-purple-400",
     },
   ];
 
@@ -59,7 +79,7 @@ function Experiences() {
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Experience
           </p>
-          <p>All technologies i own some experience</p>
+          <p className="mt-5">All technologies i own some experience</p>
         </div>
         <ExperienceItem technologies={technologiesItem} />
       </div>
