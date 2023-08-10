@@ -40,6 +40,17 @@ const About = () => {
           optimistic and dedicated, I am always ready to learn a new technology
           if requested.
         </p>
+        <p className="text-xl">
+          Currently in August 2023, I am starting a postgraduate course at Postech Fiap in .NET systems architecture with Azure. 
+        </p>
+        <div>
+            <a
+              href="https://postech.fiap.com.br/curso/arquitetura-sistemas-net-azure/"
+              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-pink-700 to-pink-900 cursor-pointer"
+            >
+              Check here
+            </a>
+          </div>
       </div>
     </div>
   );
