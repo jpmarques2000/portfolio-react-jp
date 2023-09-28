@@ -5,15 +5,15 @@ const Projects = () => {
   const projectItems = [
     {
       id: 1,
-      title: "Calculator-Javascript",
-      description: "A simple calculator project, made with javascript. ",
-      href: "https://github.com/jpmarques2000/Calculator-Js",
+      title: "Restaurant API",
+      description: "A web api for restaurants. ",
+      href: "https://github.com/jpmarques2000/Restaurante-API",
     },
     {
       id: 2,
-      title: "Shop Website-Javascript",
-      description: "A web shop project, made with javascript. ",
-      href: "https://github.com/jpmarques2000/Shop-Javascript",
+      title: "Shop-API",
+      description: "A web API made for a peripherals store using DDD. ",
+      href: "https://github.com/jpmarques2000/PerifericosFGH_DDD",
     },
     {
       id: 3,

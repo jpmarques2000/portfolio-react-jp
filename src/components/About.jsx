@@ -28,14 +28,11 @@ const About = () => {
         </p>
         <br /> */}
         <p className="text-xl mt-3">
-          Software developer with study and work experience Some languages such
-          as C#, JavaScript, Visual Basic, Oracle, etc. JavaScript libraries
-          such as React and React Native. I have good Experience working with
-          complete ERP focused on supermarkets where I have done maintenance in
-          Oracle, Visual Basic and C# databases.
+          Backend Software Developer with experience in .Net, C#, Sql, Visual Basic and PL/SQL, i also have some experience with JavaScript, React and React Native.
+          Good experience working with complete ERP focused on supermarkets where I performed maintenance on Oracle, Visual Basic and C# databases.
         </p>
         <p className="text-xl">
-          I seek an opportunity to grow in the market, seeking learning and
+          I seek an opportunity to grow, seeking learning and
           Knowledge in software development. I consider myself Proactive,
           optimistic and dedicated, I am always ready to learn a new technology
           if requested.

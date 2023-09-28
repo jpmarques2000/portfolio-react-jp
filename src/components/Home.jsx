@@ -18,8 +18,7 @@ const Home = () => {
             João Paulo
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            Desenvolvedor Front-end/Backend JavaScript | TypeScript | ReactJS |
-            React Native | Git | C# | Oracle(Pl-SQL)
+            Desenvolvedor Backend .NET, C#, SQL, ORACLE, PL/SQL.
           </p>
           <div>
             <Link
