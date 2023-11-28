@@ -18,7 +18,7 @@ const Home = () => {
             João Paulo
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            Desenvolvedor Backend .NET, C#, SQL, ORACLE, PL/SQL, Azure, SQL Server.
+             Backend Developer .NET, C#, SQL, ORACLE, PL/SQL, Azure, SQL Server.
           </p>
           <div>
             <Link
