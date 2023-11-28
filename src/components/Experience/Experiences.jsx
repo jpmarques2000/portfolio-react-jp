@@ -15,57 +15,57 @@ function Experiences() {
   const technologiesItem = [
     {
       id: 1,
-      src: html,
-      title: "HTML",
-      style: "shadow-orange-500",
-    },
-    {
-      id: 2,
-      src: css,
-      title: "CSS",
-      style: "shadow-blue-500",
-    },
-    {
-      id: 3,
-      src: javascript,
-      title: "JavaScript",
-      style: "shadow-yellow-500",
-    },
-    {
-      id: 4,
-      src: reactImage,
-      title: "React",
-      style: "shadow-blue-600",
-    },
-    {
-      id: 5,
-      src: tailwind,
-      title: "Tailwind",
-      style: "shadow-sky-400",
-    },
-    {
-      id: 6,
-      src: github,
-      title: "GitHub",
-      style: "shadow-gray-400",
-    },
-    {
-      id: 7,
       src: cSharp,
       title: "C#",
       style: "shadow-purple-400",
     },
     {
-      id: 8,
+      id: 2,
       src: oracle,
       title: "Oracle",
       style: "shadow-gray-400",
     },
     {
-      id: 9,
+      id: 3,
       src: sql,
       title: "SQL",
       style: "shadow-blue-400",
+    },
+    {
+      id: 4,
+      src: github,
+      title: "GitHub",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 5,
+      src: html,
+      title: "HTML",
+      style: "shadow-orange-500",
+    },
+    {
+      id: 6,
+      src: css,
+      title: "CSS",
+      style: "shadow-blue-500",
+    },
+    {
+      id: 7,
+      src: javascript,
+      title: "JavaScript",
+      style: "shadow-yellow-500",
+    },
+    {
+      id: 8,
+      src: reactImage,
+      title: "React",
+      style: "shadow-blue-600",
+    },
+    {
+      id: 9,
+      src: tailwind,
+      title: "Tailwind",
+      style: "shadow-sky-400",
     },
   ];
 

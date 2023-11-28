@@ -5,31 +5,38 @@ const Projects = () => {
   const projectItems = [
     {
       id: 1,
-      title: "Calculator-Javascript",
-      description: "A simple calculator project, made with javascript. ",
-      href: "https://github.com/jpmarques2000/Calculator-Js",
+      title: "Restaurant API ( .NET 7 )",
+      description: "A web api for restaurants.. ",
+      href: "https://github.com/jpmarques2000/Restaurante-API",
     },
     {
-      id: 2,
+      id:2,
+      title: "Periféricos-FGH ( .NET 7 )",
+      description:
+        "An API for peripherals store with a complete crud for addresss, orders, products, users and promotions. ",
+      href: "https://github.com/jpmarques2000/PerifericosFGH_DDD",
+    },
+    {
+      id: 3,
       title: "Shop Website-Javascript",
       description: "A web shop project, made with javascript. ",
       href: "https://github.com/jpmarques2000/Shop-Javascript",
     },
     {
-      id: 3,
+      id: 4,
       title: "Mobile Shop App(Xamarin.Forms)",
       description:
         "A mobile app shop made with Xamarin.forms, used for a graduation final project. ",
       href: "https://github.com/jpmarques2000/VENDAS_SUPERMERCADO",
     },
     {
-      id: 4,
+      id: 5,
       title: "React Native App(Incomplete)",
       description: "A shop app made with React Native, not completed yet. ",
       href: "https://github.com/jpmarques2000/VendasReact",
     },
     {
-      id: 5,
+      id: 6,
       title: "Shop Website-React",
       description:
         "A web shop page made with React, React Redux, Express and mysql. ",
